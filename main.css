@@ -1,0 +1,98 @@
+body {height: 100vh;
+width: 100%;
+background-color: rgba(255,195,0,1);
+}
+
+
+nav { color: white;
+
+  background-color: transparent;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+     0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+ }
+
+
+img{max-width: 100%;
+  height: auto;}
+
+ .swiper-container {
+      width: auto;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background-color: transparent;
+      box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+         0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      padding: 1vh;
+      color: white;
+      text-align: center;
+      background-color: transparent;
+      box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+         0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+     }
+
+     #table {
+
+     	 background-color: transparent;
+     	 padding: 1vh;
+     	 color: black;
+      text-align: center;
+
+     }
+
+     @media only screen and (max-width: 600px) {
+    #table{
+
+      color: red;
+
+
+
+   }
+ }
+
+ @media only screen and (max-width: 600px) {
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p {
+ color: black;
+
+
+
+}
+}
